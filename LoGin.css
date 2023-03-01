@@ -1,11 +1,10 @@
 *{
-    margin: 0%;
-    padding: 0%;
     box-sizing: border-box;
   }
   .container{
       width: 100%;
       height: 100vh;
+      padding: 16PX;
       background-color: white;
       background-image: url(https://emmencenter.ch/wp-content/uploads/2021/03/lolipop-rosa-bunt-scaled-e1616151308512.jpg);
       background-size: 100% 100%;
@@ -26,7 +25,7 @@
       outline: none;
   }
   .registerbtn{
-      background-color: rgb(255, 0, 0);
+      background-color: rgb(255, 255, 255);
       color: black;
       display: flex;
       justify-content: center;
@@ -42,3 +41,4 @@
   a{
       color: blue;
   }
+  
