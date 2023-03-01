@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./shop.css">
+    <link rel="stylesheet" href="./store.css">
+</head>
+<body>
+    <div id="contianer">
+        <div class="snack snack1" data-text="gummy bears">
+            <img id="gummyBear" src="https://assets.haribo.com/image/upload/s--q8QScoFX--/ar_2700:3661,c_fill,f_auto,q_60/w_763/v1/consumer-sites/international/Goldbears.png" >
+            <button class="buyButton buy1 btn btn-primy">Add To Cart</button>
+            <div class="count gummycount">$2.00</div>
+        </div>
+        <div class="snack snack2" data-text="Harshey">
+            <img id="Harshey" src="./71B+ecfv5kL.jpg " >
+            <button class="buyButton buy btn btn-primy">Add To Cart</button>
+            <div class="count hersheycount">$2.00</div>
+        </div>
+        <div class="snack snack3" data-text="Skittles">
+            <img id="skittles" src="./71dHUI2QzEL.jpg" >
+            <button class="buyButton buy3 btn btn-primy">Add To Cart</button>
+            <div class="count skittlescount">$2.00</div>
+        </div>
+    </div>
+    <div id="budget">Subtotal: $0</div>
+    <div id="totalItem">0 Items in shopping Cart</div>
+
+    <div id="buttonDiv">
+        <button class="btn btn-danger" id="clearCart">clear cart</button>
+        <button class="btn btn-success" id="checkOut">Check Out</button>
+    </div>
+    <script src="./shop.js"></script>
+</body>
+</html>
