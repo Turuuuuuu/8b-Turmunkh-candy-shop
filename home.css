@@ -9,9 +9,9 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background-image: 100% 100%;
-        background: no-repeat;
-        background-image: url('./aaaaaa.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url('./space-supernova-butterfly-nebula-wallpaper-preview.jpeg');
         
 
     }
