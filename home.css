@@ -22,7 +22,7 @@ header{
     color: white;
     user-select: none;
 }
-.navigation{
+.navigation a{
     position: relative;
     font-size: 1.1em;
     color: white;
@@ -30,9 +30,26 @@ header{
     font-weight: 500;
     margin-left: 40px;
 }
+.navigation a::after{
+    content: '';
+    position: ;
+
+}
 .navigation .btnLogin-popup{
     width: 130px;
-    height:50px
-    
-    
+    height:50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navigation .btnLogin-popup:hover{
+    background: white;
+    color: black;
 }
