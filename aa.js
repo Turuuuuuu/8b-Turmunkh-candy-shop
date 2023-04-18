@@ -16,28 +16,68 @@ const products = [
         "https://upload.wikimedia.org/wikipedia/commons/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg",
     },
     {
-      name: "candyThree",
+      name: "damla",
       price: 2300,
-      description: "Candy",
-      type: "chocolate",
+      description: "this candy has good taste",
+      type: "Damla",
       image:
-        "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+        "https://m.media-amazon.com/images/I/51Q7Rq3ehDL.jpg",
     },
     {
-      name: "candyFour",
+      name: "skittles",
       price: 550,
-      description: "Candy",
-      type: "gummy",
+      description: "this is very cool candy",
+      type: "skittles",
       image:
-        "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+        "https://www.skittles.com/sites/g/files/fnmzdf586/files/migrate-product-files/bam8afcev37jvz2mfpnk.png",
     },
     {
-      name: "candyFive",
+      name: "Alibaba",
       price: 3200,
+      description: "Alibaba",
+      type: "alibaba",
+      image:
+        "https://sc04.alicdn.com/kf/H63eeab21e07445bf926cf6b5ad8414a2Y.jpg",
+    },
+    {
+      name: "Loli pop",
+      price: 2200,
+      description: "Lolipop",
+      type: "Candy",
+      image:
+        "https://amandascookin.com/wp-content/uploads/2021/12/homemade-lollipops-RC-SQ-500x375.jpg",
+    },
+    {
+      name: "Twix",
+      price: 8200,
+      description: "it is very yammy",
+      type: "chocolate",
+      image:
+        "https://upload.wikimedia.org/wikipedia/en/f/f9/Twix-Wrapper-Small.jpg",
+    },
+    {
+      name: "хөөсөн чихэр",
+      price: 1500,
+      description: "my best candy of all time",
+      type: "chocolate",
+      image:
+        "https://cdn3.shoppy.mn/spree/images/1593052/large/4600680007946.png",
+    },
+    {
+      name: "snickers",
+      price: 2800,
       description: "Candy",
       type: "chocolate",
       image:
-        "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+        "https://m.media-amazon.com/images/I/41NT7YN956L.jpg",
+    },
+    {
+      name: "M & M",
+      price: 2200,
+      description: "cool candy",
+      type: "chocolate",
+      image:
+        "image.png",
     },
   ];
   
