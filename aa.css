@@ -1,67 +1,47 @@
-#products{
-    width: 100%;
-   
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.backtopage {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.backtopage a {
+  text-decoration: none;
+  color: #333;
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+#products {
+  width: 50%;
+  float: left;
+  padding: 10px;
 }
 #basket {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
-    padding: 10px;
-    
-    color: white;
-    text-shadow: 2px 2px 4px #000000
-   
+  width: 50%;
+  float: right;
+  padding: 10px;
 }
-.product{
-    width:200px;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4b063006-fdeb-46c6-95ef-4170f0c327f9/d25z704-afb43f2d-0665-46d9-84af-402ca545ba99.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRiMDYzMDA2LWZkZWItNDZjNi05NWVmLTQxNzBmMGMzMjdmOVwvZDI1ejcwNC1hZmI0M2YyZC0wNjY1LTQ2ZDktODRhZi00MDJjYTU0NWJhOTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dOpdu4IWOu0GsigS2L66sFt8SNqqtgWe8xMvOLdAZWQ);
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.productImage{
-width: 100px;
-height: auto;
+
+
+#total {
+  color: darkgreen;
+  margin-top: 20px;
+  font-weight: bold;
 }
-.title{
-    
-    font-size: 30px;
-}
-#price{
-    color: rgb(0, 255, 21);
-}
-body {
-    background-repeat: no-repeat;
-    background-size: 100%;
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/483/576/977/abstract-hexagon-simple-minimalism-wallpaper-preview.jpg);
-  }
- 
-  button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-   background-color: red;
-    color: #fff;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  #total {
-    background-color: aqua;
-    text-align: center;
-    font-size: 24px;
-    margin-top: 20px;
-  }
-  .backtopage{
-    background-color: red;
-    font-size: 18px;
-    border-radius: 5px;
-    border: none;
-  }

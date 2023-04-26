@@ -7,9 +7,9 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-image: url(https://cdn.shopify.com/s/files/1/0334/4036/6725/files/iStock-1270389581_1_2000x1334_crop_center.jpg?v=1671722815);
-    
+    background-color: coral;
   }
+  
   
   .Container {
     width: 100%;
@@ -44,7 +44,7 @@
     cursor: pointer;
   }
   .login {
-    background-color: #9e9e9e;
+   background-color: #858585 ;
     border-radius: 5px;
     padding: 20px;
   }
@@ -64,5 +64,11 @@
     border-radius: 3px;
     cursor: pointer;
   }
+  h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+  
+ 
+  
   
   
