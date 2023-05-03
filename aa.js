@@ -56,6 +56,20 @@ const products = [
       image:
         "https://m.media-amazon.com/images/I/41NT7YN956L.jpg",
     },
+    {
+      name: "damla",
+      price: 2300,
+      type: "Damla",
+      image:
+        "https://m.media-amazon.com/images/I/51Q7Rq3ehDL.jpg",
+    },
+    {
+      name: "damla",
+      price: 2300,
+      type: "Damla",
+      image:
+        "https://m.media-amazon.com/images/I/51Q7Rq3ehDL.jpg",
+    },
 
   ];
   

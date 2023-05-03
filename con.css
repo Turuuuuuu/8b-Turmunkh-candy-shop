@@ -1,0 +1,63 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://images.ctfassets.net/go6kr6r0ykrq/281DR2hv173vwI9muNRQra/e4f2a5e5772bb3b0679f5d0e9b8159b3/ReinforcementIllustration.svg);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+  }
+  
+  input,
+  textarea {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  a{
+    text-decoration: none;
+    color: #333;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 5px;
+color: #ff0000;
+font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
