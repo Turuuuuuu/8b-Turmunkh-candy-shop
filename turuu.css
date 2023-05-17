@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigcontainer{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 98%;
+    height: 100%;
+}
+.q1{
+    width: 100%;
+    height: 70%;
+    background-color: aqua;
+}
+.q2{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+}
+.w1{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(195, 0, 255);
+    display: flex;
+}
+.w2{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.w3{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e1{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.e2{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+.r1{
+    width: 40%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 2px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.r2{
+    width: 40%;
+    height: 49%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t1{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.t2{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.y1{
+    width: 60%;
+    height: 50%;
+    background-color: rgb(213, 247, 255);
+    border-radius: 25px;
+    border: 2px rgb(0, 234, 255)solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.u1{
+    width: 95%;
+    height: 95%;
+    background-color: blue;
+    background-image: url(https://c1.wallpaperflare.com/preview/19/228/871/clothe-fashion-store-shop-window.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    border-radius: 35px;
+    
+}
+.i1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.i2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.o1{
+    width: 55%;
+    height: 35%;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.i3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.p2{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    width: 60%;
+    height: 80%;
+    border-radius: 35px;
+    background-color: rgb(0, 255, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1{
+    width: 16%;
+    height: 20%;
+    background-color: rgb(207, 207, 207);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s2{
+    width: 10%;
+    height: 20%;
+    background-color: rgb(207, 207, 207);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3{
+    width: 13%;
+    height: 20%;
+    background-color: rgb(207, 207, 207);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s4{
+    width: 13%;
+    height: 20%;
+    background-color: rgb(207, 207, 207);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s5{
+    width: 11%;
+    height: 20%;
+    background-color: rgb(207, 207, 207);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.f1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.f2{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.g1{
+    width: 50%;
+    height: 100%;
+}
+.g2{
+    width: 2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.h1{
+    width: 15%;
+    height: 100%;
+    background-image: url(https://st.focusedcollection.com/9163412/i/1800/focused_222712944-stock-photo-young-woman-sitting-park-bench.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+.h2{
+    width: 15%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ldbFNk-urcZWgIVNWsZbrT_u0tsrZF96Qg&usqp=CAU);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+.h3{
+    width: 15%;
+    height: 100%;
+    background-image: url(https://previews.123rf.com/images/djroland/djroland1708/djroland170800030/84158357-young-pretty-woman-sitting-in-stone-fence-wicket.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+.h4{
+    width: 15%;
+    height: 100%;
+    background-image: url(https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/Search/224x336/A65926.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+.h5{
+    width: 15%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/2031/5631/products/Daily-Backpack_Blue_Front.jpg?v=1613225723);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
